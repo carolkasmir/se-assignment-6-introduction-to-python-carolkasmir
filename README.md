@@ -81,8 +81,10 @@ Answer the following questions based on your understanding of Python programming
  The literal string "Hello, World!" is surrounded by double quotations ("). Character sequences make up strings, and in this instance, the text to be shown is contained in them.
 
  Execution: 
+
  This Python script will produce the following results when it runs: ![alt text](<Screenshot 2024-06-21 170250.png>)
  In summary, print() in Python is used to send text to the console.
+
  Single " or double "quotes" are used to enclose strings.
  # comments are disregarded during execution and begin with this symbol.
 
@@ -250,6 +252,7 @@ Let's examine some examples of how they are used
  Functions are reusable code blocks in Python that carry out particular tasks. The 'def' keyword is used to define them, together with the function name, parentheses '()', and, if desired, parameters enclosed in parenthesis. Arguments are inputs that functions can process and, if desired, return a result from.
 
  Advantages of using functions
+
  1. Modularity: By dividing jobs into more manageable, smaller segments of code, functions encourage modular programming.
  2. Abstraction: By hiding implementation specifics, functions help users concentrate on the intended purpose of the function rather than its mechanics.
  3. Reuse: Functions can be used again in other sections of a program after they are defined, which reduces redundancy and enhances maintainability.
@@ -259,8 +262,10 @@ Let's examine some examples of how they are used
 
  def add_numbers(a, b):
  return a + b. 
+
  To call this function, simply pass the following two arguments: 
- result = add_numbers(2, 4). 
+
+ result = add_numbers(2, 4).
  print(result) # Output: 6
  The two inputs "a" and "b" are accepted by the function "add_numbers," which adds them and returns the result.
 
@@ -274,30 +279,34 @@ Let's examine some examples of how they are used
 7. Lists and Dictionaries:
    -Describe the differences between lists and dictionaries in Python. Write a script that creates a list of numbers and a dictionary with some key-value pairs, then demonstrates basic operations on both.
 
-   
  Definition:
 
  Lists are an ordered collection of similar or different types of items separated by commas and enclosed within brackets ‘[]’
+
  Dictionaries are unordered collections of key-value pairs. Each key is unique and maps to a value. They are created using curly braces {} with key: value pairs separated by commas.
 
  Accessing Elements:
 
  Lists: In order to access the elements in a list, one uses integer indices that begin at 0.
+
  Dictionaries: Any immutable type of key (string, number, or tuple) can be used to access elements in a dictionary.
 
  Mutability:
 
  Lists: Lists allow for the modification or changing of any of its elements after they are formed.
+
  Dictionaries: Dictionaries can also be modified, enabling changes to the values connected to keys that already exist.
 
  Use Cases:
 
  Lists: Used when elements must be accessible by position or when the order of the elements must be maintained.
+
  Dictionaries: Perfect in situations when a fast lookup using keys is needed and element order is irrelevant.
 
  Ordering:
 
  Lists: retain the order of the elements when they are added.
+
  Dictionaries: do not keep the key-value pairs in any particular sequence.
 
 
@@ -366,6 +375,7 @@ Let's examine some examples of how they are used
  Dictionary Operations:
 
  - student_ages["Daniel"] = 31: Adds a new key-value pair with key "Daniel" and value 31.
+
  - del student_ages["Carolyne"]: Deletes the key-value pair with key "Carolyne".
  - student_ages["Tom"]: Accesses the value associated with the key "Tom".
  - student_ages.keys(): Returns all the keys in the dictionary.
